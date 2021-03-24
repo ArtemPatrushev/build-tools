@@ -6,10 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Datetime superapp</title>
+    <link rel="stylesheet" href="./css/style-index.css">
     <script src="./src/main.js" type="module"></script>
+    <script src="./src/main-timer.js" type="module"></script>
 </head>
 
 <body>
+
+    <div class="tabs">
+        <div class="tabs__item" id="datecalc-tab">Калькулятор дат</div>
+        <div class="tabs__item" id="timer-tab">Таймер</div>
+    </div>
 
     <form id="datecalc">
         <h3>Калькулятор дат</h3>
@@ -25,13 +32,16 @@
         <p id="datecalc__result"></p>
     </form>
 
-    <div id="app">
-        <p id="notifier"></p>
-        <input type="text" class="userTime">
-        <button class="starTime">Start</button>
+    <div class="timer-block">
+        <p class="timer-block__notifier">00:00</p>
+        <input type="number" class="timer-block__user-minutes">:<input type="number" class="timer-block__user-seconds">
+        <button class="timer-block__start-time">Старт</button>
+        <button class="timer-block__stop-time">Стоп</button>
+        <button class="timer-block__continue-time">Продолжить</button>
+        <button class="timer-block__reset-time">Сбросить</button>
     </div>
 
-    <script src="./src/timer.js"></script>
+    <script src="./src/tabs.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,42 @@
+.tabs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.tabs .tabs__item {
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+#datecalc-tab {
+  background: grey;
+  cursor: pointer;
+}
+
+#timer-tab {
+  background: #ebe7e7;
+  cursor: pointer;
+}
+
+#datecalc {
+  display: block;
+}
+
+#datecalc input {
+  width: 125px;
+}
+
+.timer-block {
+  display: none;
+}
+
+.timer-block input {
+  width: 50px;
+}
+
+button {
+  cursor: pointer;
+}
+/*# sourceMappingURL=style-index.css.map */

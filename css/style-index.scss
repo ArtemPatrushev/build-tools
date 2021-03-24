@@ -1,0 +1,36 @@
+.tabs {
+    display: flex;
+    .tabs__item {
+        border: 1px solid grey;
+        border-radius: 5px;
+        padding: 10px;
+    }
+}
+
+#datecalc-tab {
+    background: grey;
+    cursor: pointer;
+}
+
+#timer-tab {
+    background: rgb(235, 231, 231);
+    cursor: pointer;
+}
+
+#datecalc {
+    display: block;
+    & input {
+        width: 125px;
+    }
+}
+
+.timer-block {
+    display: none;
+    & input {
+        width: 50px;
+    }
+}
+
+button {
+    cursor: pointer;
+}
