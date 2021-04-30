@@ -1,0 +1,17 @@
+npm init - в папке,где создается работа (чтобы инициализировать здесь)
+npm i -y
+npm install -D webpack webpack-cli (поле name в файле json не должно называться webpack)
+npm i -D +(имя плагина или лоадера)  установка плагинов и тд
+npx webpack --mode=development запуск после установки
+npm install webpack serve - установка для запуска на локальном сервере
+npx webpack serve - запустить сервер
+
+npx eslint --init - запустить eslint после установки
+npx eslint src/**/**.js - путь для проверки файлов
+npx eslint src/**/**.js --fix - сам исправляет ошибки
+
+
+
+
+    
+
